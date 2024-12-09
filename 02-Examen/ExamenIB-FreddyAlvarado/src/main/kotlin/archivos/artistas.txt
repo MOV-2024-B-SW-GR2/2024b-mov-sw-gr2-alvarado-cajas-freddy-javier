@@ -1,0 +1,2 @@
+Freddy,21/02/2002,ec,simple,1
+Javier,21/08/2002,peruano,ninguna,1

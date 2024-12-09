@@ -1,0 +1,2 @@
+lobito,Freddy,21/03/2002,simple,simple,20.0
+ramo,Javier,30/03/2010,simple,simple,1000.0

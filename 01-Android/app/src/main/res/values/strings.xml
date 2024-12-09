@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">gr2sw202</string>
+    <string name="saludo">Hello Friends</string>
+    <color name="saludo_color">#964B00</color>
+</resources>
