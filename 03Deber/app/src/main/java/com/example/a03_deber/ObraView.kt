@@ -152,7 +152,7 @@ class ObraView : AppCompatActivity() {
                 }
                 true
             }
-            R.id.menu_ver_artista -> {
+            R.id.menu_eliminar_artista -> {
                 mostrarDialogoEliminarObra()
                 true
             }
