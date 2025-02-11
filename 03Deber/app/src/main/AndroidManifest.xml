@@ -10,22 +10,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Gr2sw202"
+        android:theme="@style/Theme._03Deber"
         tools:targetApi="31">
         <activity
-            android:name=".FRecyclerView"
-            android:exported="false" />
-        <activity
-            android:name=".ECrudEntrenador"
-            android:exported="false" />
-        <activity
-            android:name=".CIntentExplicitoParametros"
-            android:exported="false" />
-        <activity
-            android:name=".BListView"
-            android:exported="false" />
-        <activity
-            android:name=".ACicloVida"
+            android:name=".ObraView"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
