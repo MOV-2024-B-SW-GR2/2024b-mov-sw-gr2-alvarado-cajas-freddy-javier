@@ -94,6 +94,16 @@ class MainActivity : AppCompatActivity() {
             .setOnClickListener{
                 irActividad(ECrudEntrenador::class.java)
             }
+        val botonGMaps = findViewById<Button>(R.id.btn_google_maps)
+        botonGMaps
+            .setOnClickListener{
+                irActividad(ECrudEntrenador::class.java)
+            }
+        val botonAuth = findViewById<Button>(R.id.btn_intent_firebase_ui)
+        botonAuth
+            .setOnClickListener{
+                irActividad(ECrudEntrenador::class.java)
+            }
     }
 
     val callbackContenidoIntentImplicito =

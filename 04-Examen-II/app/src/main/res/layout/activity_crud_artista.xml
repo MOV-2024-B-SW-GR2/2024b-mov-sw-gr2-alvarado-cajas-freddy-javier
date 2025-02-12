@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_crud_superhero"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrudSuperhero">
+
+    <Button
+        android:id="@+id/btn_guardar_superhero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827" />
+
+    <Switch
+        android:id="@+id/switch_active"
+        android:layout_width="192dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="180dp"
+        android:text="Popular?"
+        app:layout_constraintBottom_toTopOf="@+id/btn_guardar_superhero"
+        app:layout_constraintEnd_toEndOf="@+id/btn_guardar_superhero"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/btn_guardar_superhero" />
+
+    <EditText
+        android:id="@+id/input_name_superhero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:ems="10"
+        android:hint="Ingrese Artista"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/input_date"
+        app:layout_constraintEnd_toEndOf="@+id/input_date"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/input_date" />
+
+    <EditText
+        android:id="@+id/input_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="2020-01-01"
+        android:inputType="date"
+        app:layout_constraintBottom_toTopOf="@+id/input_popularity"
+        app:layout_constraintEnd_toEndOf="@+id/input_popularity"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/input_popularity" />
+
+    <EditText
+        android:id="@+id/input_popularity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:ems="10"
+        android:hint="Cantidad de obras?"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/switch_active"
+        app:layout_constraintEnd_toEndOf="@+id/switch_active"
+        app:layout_constraintStart_toStartOf="@+id/switch_active" />
+
+    <EditText
+        android:id="@+id/txt_latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:ems="10"
+        android:hint="Latitude"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/btn_guardar_superhero"
+        app:layout_constraintEnd_toEndOf="@+id/btn_guardar_superhero"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/btn_guardar_superhero" />
+
+    <EditText
+        android:id="@+id/txt_longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:hint="Longitude"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/btn_guardar_superhero"
+        app:layout_constraintEnd_toEndOf="@+id/btn_guardar_superhero"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/btn_guardar_superhero" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

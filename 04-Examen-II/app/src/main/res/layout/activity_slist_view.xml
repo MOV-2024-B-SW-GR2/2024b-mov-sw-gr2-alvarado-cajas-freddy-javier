@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_list_superhero"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SListView">
+
+    <ListView
+        android:id="@+id/lvl_view_superhero"
+        android:layout_width="329dp"
+        android:layout_height="529dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <Button
+        android:id="@+id/btn_crear_superhero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Crear"
+        app:layout_constraintBottom_toTopOf="@+id/lvl_view_superhero"
+        app:layout_constraintEnd_toEndOf="@+id/lvl_view_superhero"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/lvl_view_superhero" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="44dp"
+        android:layout_height="15dp"
+        android:text="Artista"
+        app:layout_constraintBottom_toTopOf="@+id/btn_crear_superhero"
+        app:layout_constraintEnd_toEndOf="@+id/lvl_view_superhero"
+        app:layout_constraintStart_toStartOf="@+id/lvl_view_superhero"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
